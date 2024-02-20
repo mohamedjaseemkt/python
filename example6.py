@@ -1,0 +1,6 @@
+x = open("text3.txt","w")
+x.write("hai ")
+x.close()
+x = open("text3.txt","rt")
+print(x.read())
+x.close()

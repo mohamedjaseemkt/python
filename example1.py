@@ -1,0 +1,6 @@
+x = open("text.txt","w")
+x.write("hai how are you")
+x.close()
+x = open("text.txt","rt")
+print(x.read())
+x.close()
